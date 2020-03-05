@@ -5,7 +5,7 @@ body{
 }
 section{
     height: 400px;
-    padding-bottom: 150px;
+    padding-bottom: 300px;
 }
 h1{
     font-size: 50px;
@@ -21,6 +21,7 @@ h3{
     border: 10px 20px solid;
     border-radius: 5px;
     padding: 10px 20px;
+    
     color: white;
     background-image: linear-gradient(180deg, pink ,palevioletred );
 }
@@ -42,5 +43,47 @@ p{
 }
 #first-banner{
     background-image: url("header-bg.png");
-    border: 30px 30px solid;
+    background-repeat: no-repeat;
+
 }
+#second-banner{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+#third-banner{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+#fourth-banner{
+    background-image: url("footer-bg.png");
+   
+}
+.last-work{
+    width: 25%;
+    padding-left: 2%;
+    margin-left: 3%;
+    float: left;
+
+}
+ .last-work img{
+     width: 100%;
+ }
+ #sub-headings{
+    
+     text-align: center;
+ }
+ #footerclass{
+     text-align: center ;
+ }
+ #footer-link-button{
+    text-decoration: none;
+    border: 30px 50px solid;
+    border-radius: 5px;
+    
+    
+    color: white;
+    background-image: linear-gradient(180deg, pink ,palevioletred );
+ }
+ footer{
+     text-align: center;
+ }
