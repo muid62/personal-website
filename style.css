@@ -23,13 +23,13 @@ h3{
     padding: 10px 20px;
     
     color: white;
-    background-image: linear-gradient(180deg, pink ,palevioletred );
+    background-image: linear-gradient(180deg, hotpink ,deeppink );
 }
 p{
     color: darkgray;
 }
 .pink-highlighter{
-    color: palevioletred;
+    color:deeppink;
 }
 .half-width{
     width: 40%;
@@ -91,7 +91,7 @@ p{
     background-color: deeppink ;
     background-image: linear-gradient(180deg, hotpink, deeppink);
     width: 50%;
-    height: 100%;
+    height: 70%;
 }
 
  footer{
